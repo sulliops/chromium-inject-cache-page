@@ -1,6 +1,6 @@
 # chromium-cache-clearer
 
-PURPOSE: This program opens Chromium-based browsers (Chrome or Edge, for the purposes of deployment) and injects the URL "chrome://settings/clearBrowserData" by simulating key presses,vin order to provide a one-click shortcut for browser cache clearing for less tech-savvy operators. Chromium-based browsers do not allow hyperlinks or shortcuts to URLs usingbthe "chrome://" or "edge://" protocols, so this is the next-best thing.
+PURPOSE: This program opens Chromium-based browsers (Chrome or Edge, for the purposes of deployment) and injects the URL "chrome://settings/clearBrowserData" by simulating key presses, in order to provide a one-click shortcut for browser cache clearing for less tech-savvy operators. Chromium-based browsers do not allow hyperlinks or shortcuts to URLs using the "chrome://" or "edge://" protocols, so this is the next-best thing.
 
 TODO: Add error handling for failures to launch program executables. This involves the use of the WIN32API GetLastError function, which is too confusing for my novice brain to work with. SOURCE: https://docs.microsoft.com/en-us/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror
 
