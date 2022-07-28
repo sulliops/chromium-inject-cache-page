@@ -1,4 +1,4 @@
-// TITLE: Chromium Cache Clearer
+// TITLE: Chromium Cache Page Injector
 // CREATED BY: Owen Sullivan
 // FOR: Benefitfocus.com, Inc.
 // PURPOSE: This program opens Chromium-based browsers (Chrome or Edge, for the purposes of deployment) and injects the URL "chrome://settings/clearBrowserData" by simulating key presses,
@@ -12,7 +12,7 @@
 //        Alternatively, run the program with a single command-line argument (either "chrome" or "edge") to silently open the selected browser. This can be accomplished through a program shortcut.
 
 // COMPILE: Use the following command on any system with the G++ compiler installed to compile this program:
-//          g++ -Wall chromium-cache-clearer.cpp -o chromium-cache-clearer.exe
+//          g++ -Wall chromium-inject-cache-page.cpp -o chromium-inject-cache-page.exe
 
 // NOTE: This program is only designed to work on Windows computers with Google Chrome and Microsoft Edge installed.
 
