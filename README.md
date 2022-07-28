@@ -8,7 +8,7 @@ USAGE: Run the program as a standalone executable without command-line arguments
 
 COMPILE: Use the following command on any system with the G++ compiler installed to compile this program: 
 ```
-g++ -Wall chromium-cache-clearer.cpp -o chromium-cache-clearer.exe
+g++ -Wall chromium-inject-cache-page.cpp -o chromium-inject-cache-page.exe
 ```
 
 NOTE: This program is only designed to work on Windows computers with Google Chrome and Microsoft Edge installed.
