@@ -14,7 +14,9 @@
 // COMPILE: Use the following command on any system with the G++ compiler installed to compile this program:
 //          g++ -Wall chromium-inject-cache-page.cpp -o chromium-inject-cache-page.exe
 
-// NOTE: This program is only designed to work on Windows computers with Google Chrome and Microsoft Edge installed. There's also no guarantee that the program actually works as intended. A better solution can be found at: https://github.com/sulliops/chromium-open-cache-page
+// NOTE: This program is only designed to work on Windows computers with Google Chrome and Microsoft Edge installed.
+//       There's also no guarantee that the program actually works as intended.
+//       A better solution can be found at: https://github.com/sulliops/chromium-open-cache-page
 
 #define WINVER 0x0500
 
