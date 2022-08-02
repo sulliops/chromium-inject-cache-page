@@ -53,8 +53,8 @@ using namespace std;
 // Function prototypes
 void clearScreen();
 void presentOptions();
-int promptSelection(bool &isFirstTime);
-void openBrowser(int &browserSelection);
+int promptSelection(const bool &isFirstTime);
+void openBrowser(const int &browserSelection);
 void insertKeySequence();
 void keyDown(INPUT &key);
 void keyUp(INPUT &key);
@@ -178,7 +178,7 @@ void presentOptions() { // Print options for user to choose from
 
 }
 
-int promptSelection(bool &isFirstTime) { // Prompt user to input an integer for browser selection
+int promptSelection(const bool &isFirstTime) { // Prompt user to input an integer for browser selection
 
     int browserSelection;
 
@@ -206,7 +206,7 @@ int promptSelection(bool &isFirstTime) { // Prompt user to input an integer for 
 
 }
 
-void openBrowser(int &browserSelection) { // Opens a new window of the specified browser
+void openBrowser(const int &browserSelection) { // Opens a new window of the specified browser
 
     // SOURCES: https://stackoverflow.com/questions/42531/how-do-i-call-createprocess-in-c-to-launch-a-windows-executable
     //          https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa
